@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VitanEdu</string>
+    <string name="facebook_app_id">986840521970616</string>
+    <string name="fb_login_protocol_scheme">fb986840521970616</string>
+    <string name="facebook_client_token">d28f97f5483b7447ac41a95c3287354a</string>
+</resources>

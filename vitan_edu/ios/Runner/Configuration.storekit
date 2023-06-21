@@ -1,0 +1,48 @@
+{
+  "identifier" : "18ABD7DF",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1198EA96",
+      "localizations" : [
+        {
+          "description" : "Giành cho học sinh tiểu học",
+          "displayName" : "Khoá học tiểu học",
+          "locale" : "vi"
+        }
+      ],
+      "productID" : "course.primary",
+      "referenceName" : "Course Primary",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "93C7FEFB",
+      "localizations" : [
+        {
+          "description" : "Giành cho học sinh trung học cơ sở",
+          "displayName" : "Khoá học trung học",
+          "locale" : "vi"
+        }
+      ],
+      "productID" : "course.junior",
+      "referenceName" : "Course Junior",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}

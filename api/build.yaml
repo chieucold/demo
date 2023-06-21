@@ -1,0 +1,152 @@
+targets:
+  $default:
+    sources:
+      - lib/**
+      - swaggers/**
+      - swaggers2/**
+      - swagger_examples/**
+      - $package$
+    builders:
+      swagger_dart_code_generator:
+        options:
+          input_folder: "lib/api/"
+          output_folder: "lib/api/"
+          use_inheritance: false
+          with_converter: true
+          use_default_null_for_lists: false
+          build_only_models: false
+          separate_models: true
+          enums_case_sensitive: false
+          ignore_headers: true
+          use_required_attribute_for_headers: false
+          include_if_null: true
+          default_api_version: '1.0'
+          url_parterns:
+            - "/public/"
+          # custom_api_version: 
+          #   - version: "2.0"
+          #     urls: "BlockCategoryUser/GetCategoryOfUser,"
+          exclude_params:
+            - "block"
+            - "blockId"
+            - "version"
+          exclude_paths:
+            - "/api/exam/v1.0/public/GroupExam/CountQuestionByTab"
+            - "/api/system/v1.0/public/Follow/CheckFollow"
+            - '/api/system/v1.0/public/Follow/CountFollow'
+            - '/api/common-data/v1.0/public/ads/{id}'
+            - '/api/common-data/v1.0/public/Contest/GetMarkBySubmissionAndUsers'
+            - '/api/common-data/v1.0/public/campaign/{id}/positions'
+            - '/api/common-data/v1.0/public/Content/CountReactionContentByObjectId'
+          response_override_value_map:
+            - url: "/api/exam/v1.0/public/Exam/CountExamForTabInMyStore"
+              method: get
+              overridden_value: "TabExamsStoreModel"
+            - url: "/api/common-data/v1.0/public/Event/CountForTab"
+              method: get
+              overridden_value: "CountTabEventModel"
+            - url: "/api/exam/v1.0/public/ProfileMember/CountTotal"
+              method: get
+              overridden_value: "ProfileMemberCountTotalModel"
+            - url: "/api/exam/v1.0/public/GroupExam/CountExamByTabAdmin"
+              method: get
+              overridden_value: "CountTabGroupAdminModel"
+            - url: "/api/exam/v1.0/public/GroupExam/CountUserByStatusOnGroupExam"
+              method: get
+              overridden_value: "CountTabExamGroupModel"
+            - url: "/api/exam/v1.0/public/GroupExam/CountExamByTab"
+              method: get
+              overridden_value: "CountTabExamGroupModel"
+            # - url: "/api/common-data/v1.0/public/Comment/Create"
+            #   method: post
+            #   overridden_value: "CommentNewsModel"
+            # - url: "/api/common-data/v1.0/public/Comment/Update"
+            #   method: put
+            #   overridden_value: "CommentNewsModel"
+            # - url: "/api/common-data/v1.0/public/Comment/GetListByObjectId"
+            #   method: post
+            #   overridden_value: "PagingResponse<CommentNewsModel>"
+            - url: "/api/exam/v1.0/public/GroupExam/GetDataAfterCompleteExam"
+              method: get
+              overridden_value: "ExamGroupUserResult"
+            - url: "/api/exam/v1.0/public/Exam/GetRateByUserExamId"
+              method: get
+              overridden_value: "RateModel"
+            - url: "/api/exam/v1.0/public/Exam/GetExamStructureDetailByExamId"
+              method: get
+              overridden_value: "ExamDetailModel"
+            # - url: "/api/exam/v1.0/public/Exam/GetDetailInfoExam"
+            #   method: get
+            #   overridden_value: "ExamDetailQuestionModel"
+            # - url: "/api/exam/v1.0/public/Competition/GetDetailInfoExam"
+            #   method: get
+            #   overridden_value: "CompetitionExamDetailModel"
+            - url: "/api/exam/v1.0/public/Exam/GetPropertyFilterForExam"
+              method: get
+              overridden_value: "List<ExamFilterModel>"
+            - url: "/api/exam/v1.0/public/Competition/CreateCompetitionInvites"
+              method: post
+              overridden_value: "List<int>"
+            - url: "/api/exam/v1.0/public/QuestionExplain/GetById"
+              method: get
+              overridden_value: "QuestionExplainModel"
+            - url: "/api/common-data/v1.0/public/AppSetting/Init"
+              method: get
+              overridden_value: "AppSettingsEntity"
+            - url: "/api/common-data/v1.0/public/Search/SearchDetail"
+              method: get
+              overridden_value: "SearchFilterResultModel"
+            - url: "/api/exam/v1.0/public/Exam/GetCategoryPieChart"
+              method: get
+              overridden_value: "TabExamsStoreModel"
+            - url: "/api/guide/v1.0/public/BusinessLineTestCategory/GetQuestionDISC"
+              method: get
+              overridden_value: "List<DISCResultOutputResource>"
+            - url: "/api/guide/v1.0/public/UserTestResult/GetResultUserByCode"
+              method: get
+              overridden_value: "ResultMultiChoiceByCodeModel"
+#            - url: "/api/public/Messenger/GetMessages"
+#              method: get
+#              overridden_value: "MessageFilterResult"
+#            - url: "/api/public/Messenger/GetContacts"
+#              method: get
+#              overridden_value: "List<MessengerListContactResourceModel>"
+          request_override_value_map:
+            - url: "/api/common-data/v1.0/public/Event/UpdateEventUserStatus"
+              method: get
+              param_name: "choose"
+              overridden_value: "int"
+            # - url: "/api/exam/v1.0/public/ExamPackage/GetList"
+            #   method: post
+            #   param_name: "body"
+            #   overridden_value: "ExamPackageRequest"
+            - url: "/api/exam/v1.0/public/Competition/CreateCompetition"
+              method: post
+              param_name: "body"
+              overridden_value: "CompetitionCreateModel"
+            - url: "/api/system/v1.0/public/User/GetListMember"
+              method: get
+              param_name: "choose"
+              overridden_value: "ListMemberGuideRequestModel"
+
+          # default_header_values_map:
+          #   - header_name: "X-Entitlements-Token"
+          #     default_value: "X-Entitlements-Token"
+          #   - header_name: "X-Cus"
+          #     default_value: "X-Cus"
+          custom_model_path:
+            - "../common/model/common_index.dart"
+            - "../exam/model/exam_index.dart"
+            - "../guide/model/guide_index.dart"
+            - "../system/model/system_index.dart"
+            - "package:core/model/paging.dart"
+          default_values_map:
+            - type_name: String
+              default_value: ""
+            - type_name: int
+              default_value: '0'
+            - type_name: double
+              default_value: '0'
+            - type_name: bool
+              default_value: 'false'
+

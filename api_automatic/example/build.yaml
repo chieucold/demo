@@ -1,0 +1,50 @@
+targets:
+  $default:
+    sources:
+      - lib/**
+      - swaggers/**
+      - swaggers2/**
+      - swagger_examples/**
+      - $package$
+    builders:
+      swagger_dart_code_generator:
+        options:
+          input_folder: "lib/"
+          output_folder: "lib/swagger_generated_code/"
+          use_inheritance: false
+          with_converter: true
+          use_default_null_for_lists: false
+          build_only_models: false
+          separate_models: true
+          enums_case_sensitive: false
+          ignore_headers: true
+          use_required_attribute_for_headers: false
+          include_if_null: true
+          default_api_version: '1.0'
+          
+          # custom_api_version: 
+          #   - version: "2.0"
+          #     urls: "BlockCategoryUser/GetCategoryOfUser,"
+          exclude_params:
+            - "block"
+            - "version"
+          exclude_paths:
+            - "/items/{id}"
+          response_override_value_map:
+            - url: "/v2/commons/availableColours"
+              method: get
+              overridden_value: "List<Map>"
+            - url: "/v2/commons/availableGenres"
+              method: get
+              overridden_value: "List<GenreV2Result>"
+            - url: "/v2/channels"
+              method: get
+              overridden_value: "List<Channel>"
+          # default_header_values_map:
+          #   - header_name: "X-Entitlements-Token"
+          #     default_value: "X-Entitlements-Token"
+          #   - header_name: "X-Cus"
+          #     default_value: "X-Cus"
+          default_values_map:
+            - type_name: String
+              default_value: ""

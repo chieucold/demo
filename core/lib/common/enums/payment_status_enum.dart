@@ -1,0 +1,4 @@
+enum PaymentStatusEnum {
+  success,
+  notSuccess,
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vitan_edu/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/vitan_edu/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/vitan_edu/build" />
+      <excludeFolder url="file://$MODULE_DIR$/contest/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/contest/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/contest/build" />
+      <excludeFolder url="file://$MODULE_DIR$/api_automatic/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/api_automatic/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/api_automatic/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-math/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-math/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-math/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/alice/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/alice/build" />
+      <excludeFolder url="file://$MODULE_DIR$/alice/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/alice/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/alice/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/alice/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/api_automatic/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/api_automatic/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/api_automatic/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/common/build" />
+      <excludeFolder url="file://$MODULE_DIR$/common/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/common/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/api_automatic/example2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/api_automatic/example2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/api_automatic/example2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/BnD.CE.Event/BnD.CE.Event/build" />
+      <excludeFolder url="file://$MODULE_DIR$/BnD.CE.Event/BnD.CE.Event/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/BnD.CE.Event/BnD.CE.Event/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/core/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/core/build" />
+      <excludeFolder url="file://$MODULE_DIR$/core/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/api/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/api/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/api/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,1 @@
+export 'multi_choice/result_multi_choice_by_code_model.dart';

@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "1029208064132",
+    "project_id": "stunning-strand-314307",
+    "storage_bucket": "stunning-strand-314307.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029208064132:android:d8228b4b9c712f62d9c2d1",
+        "android_client_info": {
+          "package_name": "com.bndedu.vitanedu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029208064132-4tfjr8414891ao88eml2jn3nkk2tueen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bndedu.vitanedu",
+            "certificate_hash": "46159214c261d79ff32a5b06f1627576f35adb68"
+          }
+        },
+        {
+          "client_id": "1029208064132-bl7vc05rudaemuppnt5kraeon9g616br.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bndedu.vitanedu",
+            "certificate_hash": "bc0fae42ba97ace02bd7798a94b69335f7103f1b"
+          }
+        },
+        {
+          "client_id": "1029208064132-sba0pefc9p7m5tn57cesl2t1kktrlici.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bndedu.vitanedu",
+            "certificate_hash": "aa41cb374a29e42c12049fb49b46b3118c6b5c01"
+          }
+        },
+        {
+          "client_id": "1029208064132-uo2gnbl9mcb9j39iqh2m4o1gurb8iurt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bndedu.vitanedu",
+            "certificate_hash": "5a75c63b087281aebad5635d106fc083c33edd92"
+          }
+        },
+        {
+          "client_id": "1029208064132-ijb7gcb332eue2btm3fpo8260ko1ck60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9id43WEV1KoqD3o3kx_wMSweNWMCgGv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029208064132-ijb7gcb332eue2btm3fpo8260ko1ck60.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1029208064132-3hd0ugmdi4r9vn3rdvsgot4qbl9e72d9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bndedu.vitanedu"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029208064132:android:3fa3ad5a587e0321d9c2d1",
+        "android_client_info": {
+          "package_name": "com.bndtech.vitanedu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029208064132-560r8428m30t8slh65vr1jnsl12v2e2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bndtech.vitanedu",
+            "certificate_hash": "5a75c63b087281aebad5635d106fc083c33edd92"
+          }
+        },
+        {
+          "client_id": "1029208064132-988mjr7f1ornm50ahlvtdtfadfbv19q2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bndtech.vitanedu",
+            "certificate_hash": "aa41cb374a29e42c12049fb49b46b3118c6b5c01"
+          }
+        },
+        {
+          "client_id": "1029208064132-d35j0m0bijistoecj65c5te08r0t9vum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bndtech.vitanedu",
+            "certificate_hash": "46159214c261d79ff32a5b06f1627576f35adb68"
+          }
+        },
+        {
+          "client_id": "1029208064132-ijb7gcb332eue2btm3fpo8260ko1ck60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9id43WEV1KoqD3o3kx_wMSweNWMCgGv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029208064132-ijb7gcb332eue2btm3fpo8260ko1ck60.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1029208064132-3hd0ugmdi4r9vn3rdvsgot4qbl9e72d9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bndedu.vitanedu"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

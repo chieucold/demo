@@ -1,0 +1,1 @@
+ const double kPaddingSymmetric = 16.0;
